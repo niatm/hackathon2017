@@ -9,8 +9,8 @@ $json = file_get_contents($url);
 //$json_data = json_decode($json, true);
 echo '
 	{
-		"from": "$from",
-		"to": "$to",
+		"from": "'.$from.'",
+		"to": "'.$to.'",
 		"liftnum": "MTM1",
 		"eta": "20"
 	}
