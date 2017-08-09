@@ -13,7 +13,7 @@ $fullname = $json_data['getStaffProfile'][0]['FULL_NAME'];
 //echo ($fullname);
 
 $url = "http://175.139.131.98/updateinfo.php?user=$fullname&from=$from&to=$to&timer=30";
-$result = file_get_contents($url);
+$result = file_get_contents(urlencode($url));
 
 echo $_SERVER['SERVER_NAME'] .'/www/qr/test.png';
 
