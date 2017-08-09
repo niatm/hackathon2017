@@ -12,7 +12,7 @@ echo '
 		"from": "'.$from.'",
 		"to": "'.$to.'",
 		"liftnum": "MTM1",
-		"eta": "20"
+		"eta": "90"
 	}
 ';
 
